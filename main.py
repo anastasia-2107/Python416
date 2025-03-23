@@ -3639,3 +3639,6 @@ import re
 #
 #
 # print(count_items(names))
+
+
+print("Текст в локальном репозитории")
