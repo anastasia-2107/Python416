@@ -3664,4 +3664,25 @@ import re
 
 # print("Текст в локальном репозитории")
 
-print("Код написан на новом устройстве")
+# print("Код написан на новом устройстве")
+
+
+
+
+# ФАЙЛЫ
+# f = open(r"C:\Users\Honor\Desktop\Настя Академия TOP\БЛОК 3. PYTHON\Python работа на уроках\text.txt")
+# # f = open("text.txt")
+# print(*f)
+# print(f)
+# print(f.mode)
+# print(f.name)
+# print(f.encoding)
+# f.close()
+# print(f.closed)
+
+
+f = open("text.txt", "r")
+# print(f.read())
+print(f.read(3))
+print(f.read())
+f.close()
