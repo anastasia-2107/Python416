@@ -250,6 +250,12 @@
 # print("Hmm...", anything, "...Really?")
 
 
+# fnam = input("May I have your first name, please? ")
+# lnam = input("May I have your last name, please? ")
+# print("Thank you.")
+# print("\nYour name is " + fnam + " " + lnam + ".")
+
+
 # num1 = int(input("Введите первое число: "))
 # num2 = int(input("Введите второе число: "))
 # num3 = int(input("Введите третье число: "))
@@ -320,6 +326,21 @@
 
 # a = 5
 # print("a:", a)
+
+
+# account = int(input("Enter how much you put: "))
+# account = abs(account)
+# if account > 0:
+#     withdrawal = int(input("Enter how much you take: "))
+#     withdrawal = abs(withdrawal)
+#     if withdrawal < account:
+#         account -= withdrawal
+#         print("Here are your", withdrawal, ".")
+#         print("There are", account, "left.")
+#     else:
+#         print("There are only", account, ".")
+# else:
+#     print("There are no money in piggy bank")
 
 
 # cnt = 15
